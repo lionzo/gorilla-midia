@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+html, body { margin:0; height: 100%;font-family: 'Work Sans', sans-serif;}
+.cabecalho{
+	background-image: url('../img/Banner_03.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+	height: 75%;
+}
+.header-nav{
+	display: flex;
+	padding-top: 1em;
+}
+.logo-wrapper{
+	background-image: url('../img/logo-topo.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 50px;
+	min-width: 200px;
+}
+.lista-nav{
+	width: 100%;
+	display: flex;
+	text-transform: uppercase;
+	justify-content: flex-end;
+	align-items: center;
+}
+.lista-nav li{
+	box-sizing: border-box;
+	padding: 0.8em 1.2em;
+	letter-spacing: 0;
+}
+.lista-nav a{
+	text-decoration: none;
+	color:#FFF;
+}
+.lista-nav li:last-child{
+	background-color: rgba(206,206,206,0.2);
+	margin-right: 1em;
+}
+
+.chamada{
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.chamada h1{
+	font-weight: 300;
+  font-style: normal;
+  font-size: 27px;
+  text-transform: uppercase;
+  line-height: .9em;
+  color: #fff;
+}
+.chamada p{
+	margin-top: 1%;
+	margin-bottom: 3%;
+	font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0px;
+    text-transform: none;
+    line-height: .9em;
+    color: #fff;
+    text-align: center;
+}
+.chamada a{
+	display: block;
+	text-decoration: none;
+	color:#FFF;
+	padding: 1em 2em;
+	border: 2px solid #fff;
+}
+.mkt-conteudo-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mkt-conteudo h2{
+  font-size: 1.9em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+.mkt-conteudo p{
+	font-size: 1.2em;
+}
+.mkt-conteudo,
+.mkt-icons{
+	padding-top: 7%;
+	width: 60%;
+	margin:0 auto;
+	text-align: center;
+}
+.mkt-icons{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6em;
+}
+.mkt-icon-wrapper {
+	width: 30%; 
+	line-height: 1.2em;
+}
+.mkt-icon-wrapper h3{
+	text-transform: uppercase;
+}
+.mkt-icon-wrapper img{width: 180px; height:180px;}
+
+.banner-medium{
+	background-image: url('../img/Banner_02.png');
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner-medium p{
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 1.5em;
+}
