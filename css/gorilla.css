@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-html, body { margin:0; height: 100%;font-family: 'Work Sans', sans-serif;}
+html, body {font-family: 'Work Sans', sans-serif;}
 .cabecalho{
 	background-image: url('../img/Banner_03.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-color: #000;
-	height: 75%;
+	height: 75vh;
 }
 .header-nav{
 	display: flex;
@@ -21,7 +21,7 @@ html, body { margin:0; height: 100%;font-family: 'Work Sans', sans-serif;}
 	min-width: 200px;
 }
 .lista-nav{
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	text-transform: uppercase;
 	justify-content: flex-end;
@@ -57,8 +57,8 @@ html, body { margin:0; height: 100%;font-family: 'Work Sans', sans-serif;}
   color: #fff;
 }
 .chamada p{
-	margin-top: 1%;
-	margin-bottom: 3%;
+	margin-top: 1em;
+	margin-bottom: 3em;
 	font-weight: 300;
     font-style: normal;
     font-size: 22px;
@@ -75,22 +75,25 @@ html, body { margin:0; height: 100%;font-family: 'Work Sans', sans-serif;}
 	padding: 1em 2em;
 	border: 2px solid #fff;
 }
-.mkt-conteudo-wrapper{
+.mkt-conteudo-wrapper,
+.ebook{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.mkt-conteudo h2{
+h2{
   font-size: 1.9em;
   margin-bottom: 1em;
   text-transform: uppercase;
 }
-.mkt-conteudo p{
+p{
 	font-size: 1.2em;
 }
 .mkt-conteudo,
-.mkt-icons{
-	padding-top: 7%;
+.mkt-icons,
+.ebook{
+	padding-top: 7vh;
+	padding-bottom: 7vh;
 	width: 60%;
 	margin:0 auto;
 	text-align: center;
@@ -98,20 +101,26 @@ html, body { margin:0; height: 100%;font-family: 'Work Sans', sans-serif;}
 .mkt-icons{
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 6em;
 }
 .mkt-icon-wrapper {
 	width: 30%; 
 	line-height: 1.2em;
 }
-.mkt-icon-wrapper h3{
+.mkt-icon-wrapper h3,
+.ebook-icon-wrapper h3{
 	text-transform: uppercase;
 }
 .mkt-icon-wrapper img{width: 180px; height:180px;}
 
+.ebook-icons{
+	display: flex;
+	justify-content: space-around;
+}
+.ebook-icon-wrapper img{width: 290px; height:338px;}
+.ebook-icon-wrapper p{width: 70%; margin: 0 auto;}
 .banner-medium{
 	background-image: url('../img/Banner_02.png');
-	height: 350px;
+	height: 35vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -124,4 +133,28 @@ html, body { margin:0; height: 100%;font-family: 'Work Sans', sans-serif;}
 	text-transform: uppercase;
 	color: #FFF;
 	font-size: 1.5em;
+}
+
+.icones-sociais{
+	height: 10vh;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icones-sociais a{
+	margin-right: 25px;
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	/*font-size: 0px;*/
+	text-indent: -9999px;
+	position: relative;
+}
+.facebook{background-image: url(../img/facebook.svg);}
+.twitter{background-image: url(../img/twitter.svg);}
+
+.outras-infos{
+	height: 20vh;
+	background-color: #3B3B3B;
 }
